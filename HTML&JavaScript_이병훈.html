@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		table
+		{
+			width: 570px;
+		}
+	
+#first {
+	/* width: auto; */
+	border: 1px solid black; 
+	border-collapse: collapse;
+}
+th,.top {
+	text-align: center;
+}
+.top{
+	color: red;
+	background-color: rgb(204, 204, 250);
+	font-weight: bolder;
+	font-size: large;
+	margin: 5px;
+	padding: 5px;
+}
+.top2{
+	background-color: rgb(211, 211, 211);
+	text-align: center;
+	font-weight: bolder;
+	font-size: large;
+	margin: 5px;
+	padding: 5px;
+}
+#middle1{
+	border: 1px solid black; 
+	border-collapse: collapse;
+	height: 100px;
+}
+#center{
+	text-align: center;
+	
+}
+
+#centerbold{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#centerboldbackground{
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(211, 211, 211);
+}
+#feedback{
+	height:  150px;
+	text-align: center;
+}
+#point{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+
+	</style>
+</head>
+<body>
+<table id="first"  border="1" >
+	<tr class="top">
+		<td colspan="4">
+		교과목 평가표(예시)
+	</td>
+	</tr>
+		<tr>
+			<th>과정명</th>
+			<td colspan="3">빅데이터 기반(파이썬·자바·웹) 엘라스틱 검색엔진 개발자</td>
+		</tr>
+		<tr>
+			<th>훈련 기간</th>
+			<td>2025. 01. 15 ~ 2025. 07. 10</td>
+			<th>강사</th>
+			<td>권상구</td>
+		</tr>
+		<tr>
+			<th>교과목</th>
+			<td>HTML5&JavaScript</td>
+			<th>훈련생</th>
+			<td>이병훈</td>
+		
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr class ="top2">
+			<td colspan="4">
+			평가 문항
+		</td>
+		</tr>
+		<table border="1">
+			<tr> 
+				<td colspan="6" id="centerbold">IT 시간표</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td id="centerbold">401호</td>
+				<td id="centerbold">402호</td>
+				<td id="centerbold">403호</td>
+				<td id="centerbold">404호</td>
+			</tr>
+			<tr>
+				<td id="centerbold">09:00 - 12:00</td>
+				<td rowspan="4"  id="centerbold">공<br>사<br>중</td>
+			<td>PYTHON 기초</td>
+			<td rowspan="2">네트워크보안<br>실무자양성</td>
+			<td>보충훈련 과정<br>(OS/네트워크)</td>
+			</tr>
+			<tr>
+			<td id="centerbold">12:30 - 15:30</td>
+			<td>JAVA</td>
+			<td>보충훈련과정<br>(언어계열)</td>
+			</tr>
+			<tr>
+			<td id="centerbold">15:30 - 18:30</td>
+			<td>c언어</td>
+			<td rowspan="2">가상화 시스템<br>엔지니어 실무자 양성</td>
+			<td>리눅스</td>
+			</tr>
+			<tr>
+			<td id="centerbold">19:00 - 22:00</td>
+			<td>PHTHON_WEB</td>
+			<td>서버</td>
+			</tr>
+		</table>
+		<table id = middle1 border="1">
+		<td >위의 그림을 참고해서 HTML을 사용하여 구현한다.</td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="centerboldbackground">답안 링크</td>
+		</tr>
+		<tr>
+			<td id="centerbold">깃허브 주소</td>
+		</tr>
+		<tr>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="centerboldbackground">평가 결과</td>
+		</tr>
+	</table>
+	<table border="1" id = point>
+		<tr>
+			<td rowspan="2" id="center">No.</td>
+			<td rowspan="2" >평가 항목(배점)</td>
+			<td colspan="5"id="center">평가 점수(배점)</td>
+		</tr>
+		<tr>
+			<td id="centerbold">최상(25)</td>
+			<td id="centerbold">중상(20)</td>
+			<td id="centerbold">중(15)</td>
+			<td id="centerbold">중하(10)</td>
+			<td id="centerbold">최하(5)</td>
+		</tr>
+		
+		<tr>
+			<td id="center">1</td>
+			<td id="center">가독성</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="center">2</td>
+			<td id="center">작성력</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="center">3</td>
+			<td id="center">기술 적용도</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="center">4</td>
+			<td id="center">완성도</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id="center">5</td>
+			<td id="center">훈련강사의 정성평가</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2" id="feedback"> * 피드백</td>
+			<td colspan="5"> </td>
+		</tr>
+	</table>
+	<table border="1">
+		<tr><td id="centerboldbackground">총점</td></tr>
+		<tr><td><br></td></tr>
+
+	</table>
+	</table>
+
+
+</body>
+</html>
